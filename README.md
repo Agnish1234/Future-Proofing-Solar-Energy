@@ -36,3 +36,15 @@ What This Study Does?
 In a nutshell:
 
     - We built a tool that tells energy planners: 'Build your solar farm here – it will still work well even after climate change.'
+
+
+**Key Findings from this study:**
+
+1. Suitability change p‑value: 0.0000 – Significant
+2. Linear regression R² (standardized): 0.836
+3. Logistic regression AUC: 0.952
+4. Optimal clusters (k): 3 (silhouette score: 0.204)
+5. Decision tree test R²: 0.730
+6. Most important feature (tree): irr_current (0.902)
+7. Moran's I for residuals: 0.8302 (p=0.0000) – spatial autocorrelation present.
+
