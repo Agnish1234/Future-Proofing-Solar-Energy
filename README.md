@@ -66,5 +66,3 @@ The analysis follows a structured workflow that mirrors the NPTEL Data Analytics
 Each step is explained in simple language within the notebook.
 
 ---
-
-## 📁 Repository Structure
