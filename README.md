@@ -10,11 +10,11 @@ This project answers that question. It provides a complete, reproducible data an
 
 Unlike traditional site‑suitability studies that rely only on current climate data, this work explicitly accounts for **climate‑induced changes in irradiance and temperature**, helping energy planners, policymakers, and investors make long‑term, resilient decisions.
 
-The analysis is demonstrated on a **realistic synthetic dataset** for a region in eastern India (22–24°N, 88–90°E), but the code is modular and ready to be applied to real data from sources like WorldClim, NASA POWER, or the Global Solar Atlas.
+The study is demonstrated on a **realistic Test data** for a region in eastern India (22–24°N, 88–90°E), but the code is modular and ready to be applied to real data from sources like WorldClim, NASA POWER, or the Global Solar Atlas.
 
 ---
 
-##  Key Findings (In Plain English)
+##  Key Findings:
 
 - **Climate change will alter solar suitability.** The difference between today and 2050 is statistically significant (p < 0.001). Some sunny places today will become too cloudy or too hot.
 - **Sunlight is king, but heat matters.** Irradiance explains ~90% of suitability, but temperature is a close second. The best spots have **high sun AND moderate temperatures**.
@@ -36,15 +36,8 @@ The analysis is demonstrated on a **realistic synthetic dataset** for a region i
 | Most important feature (decision tree) | Irradiance (90% importance) |
 | Decision tree test R² | 0.730 |
 
-### Example Visuals
 
-| Current Suitability | Future Suitability (2050) | Clusters (Risk Zones) |
-|---------------------|---------------------------|------------------------|
-| ![](figures/suitability_maps.png) | ![](figures/suitability_maps.png) | ![](figures/cluster_map.png) |
-
-*(Note: The maps above show the same figure as a placeholder; replace with your actual images after uploading to the `figures/` folder.)*
-
-All 12 publication‑ready figures are available in the [`figures/`](./figures) directory.
+The visual results are in the prototyped notebook.
 
 ---
 
@@ -63,6 +56,6 @@ The analysis follows a structured workflow that mirrors the NPTEL Data Analytics
 9. **Decision Tree** – Interpretable regression tree with simple rules.
 10. **Reproducibility** – All code, data, and figures saved.
 
-Each step is explained in simple language within the notebook.
+Each step is explained within the notebook to make it easy for everyone to understand.
 
 ---
