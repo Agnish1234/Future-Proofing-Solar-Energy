@@ -2,7 +2,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 **If we build solar farms today based on today's weather, will they still be good investments 25 years from now when the climate has changed?**
 
@@ -14,7 +14,7 @@ The analysis is demonstrated on a **realistic synthetic dataset** for a region i
 
 ---
 
-## 🎯 Key Findings (In Plain English)
+##  Key Findings (In Plain English)
 
 - **Climate change will alter solar suitability.** The difference between today and 2050 is statistically significant (p < 0.001). Some sunny places today will become too cloudy or too hot.
 - **Sunlight is king, but heat matters.** Irradiance explains ~90% of suitability, but temperature is a close second. The best spots have **high sun AND moderate temperatures**.
@@ -25,7 +25,7 @@ The analysis is demonstrated on a **realistic synthetic dataset** for a region i
 
 ---
 
-## 📊 Results at a Glance
+##  Results at a Glance
 
 | Metric | Value |
 |--------|-------|
@@ -48,7 +48,7 @@ All 12 publication‑ready figures are available in the [`figures/`](./figures) 
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 The analysis follows a structured workflow that mirrors the NPTEL Data Analytics syllabus:
 
